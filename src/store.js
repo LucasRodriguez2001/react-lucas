@@ -1,13 +1,13 @@
 import React from 'react';
 import NavBar from './components/NavBar.js';
-import Hero from './components/Hero.js';
+import HeroStore from './components/HeroStore.js';
 import './style.css';
 
-export default function App() {
+export default function store() {
   return (
     <>
       <NavBar background={'transparent'} />
-      <Hero title="Tu tienda de JORDANS"></Hero>
+      <HeroStore title="Tienda"></HeroStore>
     </>
   );
 }

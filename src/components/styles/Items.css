@@ -1,0 +1,21 @@
+.h-100 {
+    margin-top: 50px;
+    box-shadow: 5px 5px 15px black;
+    transition: 0.7s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.h-100:hover{
+    width: 220px;
+    height: 120px;
+}
+
+.title{
+    color: goldenrod;
+    border-bottom: 0.01cm solid black;
+}
+
+.price strong{
+    color: green;
+}
